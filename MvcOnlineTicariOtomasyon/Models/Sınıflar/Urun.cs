@@ -30,7 +30,7 @@ namespace MvcOnlineTicariOtomasyon.Models.Sınıflar
         public string UrunGorsel { get; set; }
 
         public Kategori Kategori { get; set; } // her ürünümün bir kategorisi olabilir
-        public SatisHareket SatisHareket { get; set; }
+        public ICollection<SatisHareket> SatisHarekets { get; set; }
     }
 
 
